@@ -1,0 +1,15 @@
+{
+  "name": "React-Description-Container",
+  "version": "1.0.0",
+  "description": "Image/description container that hides content until on hover, for desktop. Mobile has two different style 'modes' that can be chosen through the properties passed in.",
+  "repository": "https://github.com/smacknat/React-Description-Container.git",
+  "main": "lib/Container.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "smacknat",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^15.5.4"
+  }
+}

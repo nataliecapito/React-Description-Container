@@ -1,0 +1,100 @@
+/* General: main styles for React-Description-Container */
+
+/*NON-MOBILE*/
+.containerStyle {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+.flexRowStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.linkFullWrapperStyle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: block;
+    z-index: 999;
+}
+
+.projectImageStyle {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* MOBILE */
+.containerStyleMobile {
+    justify-content: center;
+}
+
+.listContainerStyleMobile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid;
+}
+
+.projectImageStyleOneMobile {
+    position: relative;
+    max-width: 500px;
+    min-width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+    background-color: white;
+    margin: 10px auto;
+}
+.projectImageStyleTwoMobile {
+    position: relative;
+    max-width: 175px;
+    min-width: 175px;
+    height: 190px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 3px;
+    margin: 10px 3px auto 2px;
+}
+
+.projectImageMobileContainer {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    line-height: 20px;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+.projectImageMobileContainerTwo {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    justify-content: center;
+}
