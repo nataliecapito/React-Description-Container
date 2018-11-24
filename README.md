@@ -1,10 +1,9 @@
 # React-Description-Container
-## Description
-Image/description container that hides content until on hover, for desktop. Mobile has two different style 'modes' that can be chosen through the properties passed in. See below for more details and installation instructions.
+- Image/description container that hides content until on hover, for desktop. Mobile has two different style 'modes' that can be chosen through the properties passed in.
 
 # General
-## Install
-- npm install --save React-Description-Container (currently deactivated).
+## Install -> Deactivated
+- npm install --save React-Description-Container
 
 ## Properties
 | Name | Type | Default | Description |
@@ -19,7 +18,7 @@ Image/description container that hides content until on hover, for desktop. Mobi
 | `backgroundColor` | string | white | the main color of the background. seen for hover and transparent images |
 | `mode` | string | two | format style type for mobile; takes 'one' or 'two'. 'One' is full width of mobile device, while 'two' is a set width/height container. |
 
-## Example Images
+## Example Images (09/09/18)
 | O.P | Type | |
 | --- | --- | --- |
 | `PC/MAC` | hover false | ![desktop-no-hover](public/images/preview_images/img1.png) |
